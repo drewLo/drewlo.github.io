@@ -9,8 +9,11 @@ tags: notes github-pages web
 ---
 
 Getting DNS configured correctly was an adventure. 
-Partially due to the intricacies of DNS still being unexplored territory for me, like the the time websites take to update their cache, vs my local cache. 
-It can make it difficult to discern if the action I just took had any effect. 
+Partially due to the intricacies of DNS still being unexplored territory for me.
+
+Like the the time websites take to update their cache or to propagate changes, vs my local environment. 
+Redirect records and TCP/IP also acted a point of confusion.. 
+At first it took some getting used to discerning if the action I just took had any effect. 
 In my defense, I've never considered myself much of a web developer.
 
 Removing either of the CNAME or redirects caused problems, but I was able to find the local minima of stuff that needed to be configured, after a few (5!) hours. 
