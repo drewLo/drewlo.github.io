@@ -5,7 +5,7 @@ date: 2018-05-18 16:14:00 -0700
 comments: true
 published: true
 categories: swe
-tags: design-patterns notes
+tags: design-patterns notes programming
 ---
 
 Notes regarding my foray into software desgin patterns. ie. discoveries and realizations that perhaps aren't as obvious as they might seem.
