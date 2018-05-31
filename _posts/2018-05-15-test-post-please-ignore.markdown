@@ -2,7 +2,9 @@
 layout: post
 title:  "Test Post, Please Ignore"
 date:   2018-05-15 23:48:50 -0700
-categories: testing 
+published: true
+comments: true
+tags: test example
 ---
 This is a test post, written in emacs, hosted on github, and built with jekyll!
 
