@@ -19,7 +19,7 @@ In my defense, I've never considered myself much of a web developer.
 Removing either of the CNAME or redirects caused problems, but I was able to find the local minima of stuff that needed to be configured, after a few (5!) hours. 
 
 Most of the time-cost was due to my own inexperience and not knowing which steps to take.
-I was able to get the aliasing done probably 3 hours in, but I kept working because https wasn't turning on.
+I was able to get the aliasing done probably 3 hours in, but I kept working because https wasn't activating.
 It still isn't working, I assume I need to wait for my previous cert to expire.
 I'm thankful that I was able to get more familair with the process, since it could pay off for me in the future (with other pages).
 
@@ -29,7 +29,7 @@ I should mention that the namecheap help page, while being more catered to my ne
 
 Now to begin work on the actual page content! 
 This took up way more time than I should have given it, but there were definitely some important basics learned in the process of getting this up and working. 
-It was supposed to be a break from my last programming project for the semester! And it turned into the programming project of the day!
+It was supposed to be a 15min break from my last programming project for the semester, and it turned into the programming project of the day!
 
 Anyway, here were my successful settings + steps, and the sites they were performed on:
 1. [namecheap][namecheap] then set github's 4 IP's as A records under the advanced DNS tab.
