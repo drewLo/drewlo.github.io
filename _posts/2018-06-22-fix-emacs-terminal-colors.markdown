@@ -12,7 +12,7 @@ Emacs terminal was not using the correct color pallette, much text was unreadabl
 
 ![Weird Colors](/images/emacs-term-wrong-colors.png "Weird Colors")
 
-## Attemtps:
+## Attempts:
 - Changing them in `gnome-terminal` preferences had no effect. 
 - Changing emacs' theme had no effect.
 - Altering the colors for the `ls` program in bashrc (or in my case zshrc) had no effect.
