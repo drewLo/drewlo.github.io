@@ -16,7 +16,7 @@ Changing emacs' theme had no effect.
 Altering the colors for the ls program in bashrc (or in my case zshrc) had no effect.
 
 ## Fix:
-1. M-x customize
+1. {% highlight elisp %} M-x customize {% endhighlight %}
 2. search `terminal`
 3. open the drop-down for Custom terminal program
 4. enter your terminal of choice, in my case this was gnome-terminal.
