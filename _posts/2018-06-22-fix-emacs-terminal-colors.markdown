@@ -25,4 +25,4 @@ Emacs terminal was not using the correct color pallette, much text was unreadabl
    - The name of your terminal is what isused to launch an instance (`xterm`, `termite`, et al.)
 5. restart (might not be necessary, but just in case).
 
-
+![Color Fix](/images/emacs-terminal-color-fix.png "Color Fix")
