@@ -8,7 +8,7 @@ tags: emacs fix
 ---
 
 ## Problem:
-Emacs terminal was not using the correct color pallette, much text was unreadable because it was highlighted in a mismatched contrast.
+Emacs terminal was not using the correct color pallette, much text was unreadable because it was highlighted in a mismatched color with similar contrast.
 
 ![Weird Colors](/images/emacs-term-wrong-colors.png "Weird Colors")
 
@@ -24,3 +24,5 @@ Emacs terminal was not using the correct color pallette, much text was unreadabl
 4. enter your terminal of choice, in my case this was `gnome-terminal`
    - The name of your terminal is what isused to launch an instance (`xterm`, `termite`, et al.)
 5. restart (might not be necessary, but just in case).
+
+
