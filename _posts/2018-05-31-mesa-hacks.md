@@ -17,7 +17,7 @@ The rest of this post will take place after the event.
 It certaintly proved to be a learning experience. 
 The event had a lot of effort placed into it. There was lots of food laid out and t-shirts for the attendees.
 The theme was Environmental Sustainability. Guest mentors from Space and Naval Warfare Systems were there.
-We were the first table they checked in with. My group didn't have an idea, so I brought mentioned my backup, a simple app to help automate some gardening tasks.
+We were the first table they checked in with. My group didn't have an idea, so I mentioned my backup, a simple app to help automate some gardening tasks.
 A guest speaker (a professor from the geology department) and the mentors did not think the idea was very good, encouraging our team to instead work on something "non-trivial", that "other people would use", because "this is a competition". 
 To be honest, I was taken aback. I thought my idea had at least been reasonable, let alone could be accomplished in the 8-10hour time frame. 
 However the damage was done, shortly after I bowed out. Not without first thanking the club president and a volunteers for their contribution to the event. 
