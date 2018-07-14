@@ -24,7 +24,6 @@ However the damage was done, shortly after I bowed out. Not without first thanki
 
 In retrospect, I should have had thicker skin. I was nervous about my first hackathon and felt slightly exposed, insecure about my own abilities and capacity to contribute to my team.
 The club's vice president reached out after I mentioned it in slack, he explained the mentors had not been adequately briefed on what was expected from the participants.
-To be frank I'm not sure if this is standard fare for hackathons, I suppose I had unconscious expectations after all.
 
 Despite this experience, I look forward to my next opportunity to try again, maybe at a different location.
 
