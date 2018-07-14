@@ -7,7 +7,7 @@ comments:  true
 tags: notes design-patterns
 ---
 
-Notes regarding my foray into software desgin patterns. ie. discoveries and realizations that perhaps aren't as obvious as they might seem.
+Notes covering my foray into software design. ie. realizations that perhaps aren't as obvious as they might seem.
 
 ## Chain of Responsibility
 Not knowing what objects send and receive the data may seem like an unusual characteristic; the reason it's desireable here is due to effect on an object's modularity.
