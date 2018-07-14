@@ -1,10 +1,10 @@
 ---
-layout:  post
-title:   "Setting Up Github Pages"
-date:    2018-05-16 06:34:00 -0700
+layout: post
+title:  "Setting Up Github Pages"
+date:   2018-05-16 06:34:00 -0700
 published: true
-comments: true
-tags:  notes web github-pages
+comments:  true
+tags: notes web github-pages
 ---
 
 Getting DNS configured correctly was an adventure. 

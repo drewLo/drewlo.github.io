@@ -1,11 +1,10 @@
 ---
 layout: post
-title: Design Patterns
-date: 2018-05-18 16:14:00 -0700
-comments: true
+title:  "Design Patterns"
+date:   2018-05-18 16:14:00 -0700
 published: true
-categories: swe
-tags: design-patterns notes programming
+comments:  true
+tags: notes design-patterns
 ---
 
 Notes regarding my foray into software desgin patterns. ie. discoveries and realizations that perhaps aren't as obvious as they might seem.
