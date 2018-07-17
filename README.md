@@ -26,8 +26,8 @@ Disclaimer: I have NO professional experience with any of the following. However
 ### Tools
 
 - git
-    - github
-    - gitlab
+    -- github
+    -- gitlab
 - Bash
 - VNC
 - AWK
