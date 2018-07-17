@@ -35,7 +35,7 @@ Disclaimer: I have NO professional experience with any of the following. However
 ### Libraries && Frameworks
 
 - react.js
-- Processing && p5.js
+- Processing -- p5.js
 - openFrameworks
 - openCV
 - Flask
