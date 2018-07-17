@@ -9,11 +9,13 @@ tags: event hackathon mesa
 
 Tomorrow San Diego Mesa Community College is having their first [hackathon][mesa-csc]. Coincidentally, it's also my first hackathon.
 
-## Pre-thoughts
+# Pre-thoughts
+
 I'm not sure what to expect, I'm bringing my equipment and a small idea and we'll see how it goes.
 The rest of this post will take place after the event.
 
-## Post-thoughts
+# Post-thoughts
+
 It certaintly proved to be a learning experience. 
 The event had a lot of effort placed into it. There was lots of food laid out and t-shirts for the attendees.
 The theme was Environmental Sustainability. Guest mentors from Space and Naval Warfare Systems were there.

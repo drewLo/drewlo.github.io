@@ -31,6 +31,7 @@ This took up way more time than I should have given it, but there were definitel
 It was supposed to be a 15min break from my last programming project for the semester, and it turned into the programming project of the day!
 
 Anyway, here were my successful settings + steps, and the sites they were performed on:
+
 1. [namecheap][namecheap] Set github's 4 IP's as A records under the advanced DNS tab.
 2. [namecheap][namecheap] Set my page's github url (drewlo.github.io) as the (host: www) CNAME record.
 3. [github][github] Set the custom domain field in the github repo's settings to my custom namespace domain.
