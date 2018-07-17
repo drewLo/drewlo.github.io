@@ -9,7 +9,7 @@ I have an unusual interest in text editors.
 
 Note: This page is in ongoing project in itself and therefore subject to edits and revisions!
 
-## Ongiong Projects
+## Ongoing Projects
 
 - [wordGen](https://github.com/drewLo/wordGen), a procedural word generator @1.0.0
 - [lough.tech](http//lough.tech "lough.tech"), This website.
