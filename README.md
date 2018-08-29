@@ -2,48 +2,59 @@
 
 ## About me
 
-After spending some years exploring my interests in the arts, I discovered a deep interest in computer science and relevant domains.
-I'm still in an exploratory stage, some areas I've touched on: Graphics processing, Machine Learning, DSP; I'm currently enrolled at my local communtiy college district with the intention of deepening my knowledge in computers and mathematics.
-Lately, web technologies have been growing on me.
-I have an unusual interest in text editors. 
+Started out as a musician by training. 
+Graduated from university with a degree in conflict resolution and a minor in Mandarin Chinese. 
+Spent some years working in different positions, from bussing to brand management. 
+While broadening design skills I discovered Processing, which inspired me to take Harvard's cs50x in order to create more sophisticated sketches. 
+During this time I cultivated a passion for programming and computer science.
+I'm still exploring a few of the vast quantity of differnt technologies tools available to me, and I don't expect I may ever stop :). This is also what draws me to web development! 
+Other areas I've touched on: Graphics processing(low level, drivers, computer vision), Machine Learning(pytorch), DSP(audio programming, with max and C++); 
+Currently taking classs at local community colleges to hone my knowledge of computers and mathematics, with the intent to get into a graduate program or professional software development position.
 
+---
 Note: This page is in ongoing project in itself and therefore subject to edits and revisions!
+---
 
-## Ongoing Projects
+## Current Projects:
 
 - [wordGen](https://github.com/drewLo/wordGen), a procedural word generator @1.0.0
 - [lough.tech](http//lough.tech "lough.tech"), This website.
-- [io AV](http://ioav.tech "ioAV") my audioVisual project, where I post my bad art
+- [io AV](http://ioav.tech "ioAV") the site for my audio-visual project, currently a collection of social media links.
 
-- Render Farm
+- Render Farm with Blender & VNC
+- Raspberry Pi Zero ad-blocker
 
 - ToDo: add suspended projects? Completed?
 
-## Experience with
+## Experience:
 
 Disclaimer: I have NO professional experience with any of the following. However, I am actively looking to change that! Hit me up if you think my endeavors align with those of your organization!
 
-### Tools
+### Tools:
 
 - git
-    -- github
-    -- gitlab
-- Bash
+..- github
+..- gitlab
+- AWK, less, grep, ffmpeg, ssh, sftp, & more.
+- Bash | zsh
 - VNC
-- AWK
+- VMs: Virtualbox, Boxes, HyperVisor
+- DBMS: mongoDB, postgreSQL
 
 ### Libraries && Frameworks
 
 - react.js
-- Processing -- p5.js
+- webpack
+- p5.js (js port of Processing)
 - openFrameworks
 - openCV
+..- OCR & Shape-detection
 - Flask
-- Django
 
 ### Runtimes
 
 - node.js
+- Django
 
 ### Package Managers
 
@@ -53,14 +64,15 @@ Disclaimer: I have NO professional experience with any of the following. However
 - rubygems
 
 ### Languages
-
+- C
 - C++11 -> 17
-- Python
-- JavaScript : ES6
+- Python 3
+- JavaScript -> ES6
 - Max
-- eLISP
+- eLISP | scheme
 - LaTeX
 - Markdown
+- HTML5 + CSS3
 
 ### CMS
 
@@ -70,7 +82,7 @@ Disclaimer: I have NO professional experience with any of the following. However
 ### Editors
 
 - emacs, vim, vscode, sublime text, atom,
-- visual studio, qtcreator, code::blocks,
+- visual studio, qtcreator, code::blocks, jetbrains
 
 ### OS
 
@@ -89,12 +101,12 @@ Disclaimer: I have NO professional experience with any of the following. However
 
 ### Audio Media
 
-- Bitwig Studio
 - Ableton Live
-- FL Studio, Cubase, Repear 
+- Bitwig Studio
+- Cubase, FL Studio, Repear 
 - a wide variety of plugins and tools too long to mention here
 
-## Possible Topics
+## Blog Topics
 
 - Document problems and solutions
 - Reflect on experiences
@@ -104,6 +116,5 @@ Disclaimer: I have NO professional experience with any of the following. However
 
 Creadted with Jekyll, Hosted on Github pages.
 Based on theme [Jekyll Now][jekyll-now] by [Barry Clarke][bc-gh]. 
-
 [bc-gh]: https://github.com/barryclark/
 [jekyll-now]: https://github.com/barryclark/jekyll-now
