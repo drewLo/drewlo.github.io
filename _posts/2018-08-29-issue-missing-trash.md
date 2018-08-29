@@ -33,8 +33,8 @@ tags: GNU+Linux issue open
 
 ### Considerations:
 - Nautilus may not have the correct permissions.
-  + `sudo nautilus` throws several errors related to g_dbus and dfails to launch.
-  + `gksu` doesn't exist on my system, it might be able to be installed but I want to explore other options first.
+..+ `sudo nautilus` throws several errors related to g_dbus and dfails to launch.
+..+ `gksu` doesn't exist on my system, it might be able to be installed but I want to explore other options first.
 
 ## Results:
 - TBA
