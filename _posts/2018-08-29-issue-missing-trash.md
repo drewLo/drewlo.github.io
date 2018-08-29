@@ -24,7 +24,7 @@ tags: GNU+Linux issue open
 - Both `.Trash` and `.Trash-$UID` directories are in the partition mount points. ie. `/home/dlo/soma/.`
 - At some point, during attempts at fixing the problem, the option in the right-click context menu stopped listing `Move to Trash`, and instead now displays `Delete Permanently` (see below).
 
-![Trash Not Found][1]
+![Trash Not Found][example]
 
 ## Attempts:
 - `sudo` `chown` | `chmod` seem to have no effect. The folder(top directory, ie. partition mount point) remains owned by root:root.
@@ -39,4 +39,4 @@ tags: GNU+Linux issue open
 ## Results:
 - TBA
 
-[1]: ./images/gnome-no-trash.jpg "Trash not found"
+[example]: ../images/gnome-no-trash.jpg "Trash not found"
