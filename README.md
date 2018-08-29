@@ -5,10 +5,10 @@
 Started out as a musician by training. 
 Graduated from university with a degree in conflict resolution and a minor in Mandarin Chinese. 
 Spent some years working in different positions, from bussing to brand management. 
-While broadening design skills I discovered Processing, which inspired me to take Harvard's cs50x in order to create more sophisticated sketches. 
-During this time I cultivated a passion for programming and computer science.
-I'm still exploring a few of the vast quantity of differnt technologies tools available to me, and I don't expect I may ever stop :). This is also what draws me to web development! 
-Other areas I've touched on: Graphics processing(low level, drivers, computer vision), Machine Learning(pytorch), DSP(audio programming, with max and C++); 
+While broadening design skills I discovered [Processing][processing], which inspired me to take Harvard's [cs50x][cs50] in order to write more sophisticated sketches. 
+During this time I cultivated a passion for programming and decided to go back to school for computer science.
+I'm still exploring a few of the thousands of differnt technologies available to me, and I don't expect I may ever stop :). This is also what draws me to web development! 
+Other areas I've touched on: Graphics processing(low level, drivers, computer vision), Machine Learning(pytorch, ml.*, octave), DSP(audio programming, with max and C++); 
 Currently taking classs at local community colleges to hone my knowledge of computers and mathematics, with the intent to get into a graduate program or professional software development position.
 
 ---
@@ -25,6 +25,8 @@ Note: This page is in ongoing project in itself and therefore subject to edits a
 - Raspberry Pi Zero ad-blocker
 
 - ToDo: add suspended projects? Completed?
+
+---
 
 ## Experience:
 
@@ -74,6 +76,12 @@ Disclaimer: I have NO professional experience with any of the following. However
 - Markdown
 - HTML5 + CSS3
 
+## Courses:
+- cs50x
+- Introduction to C/C++ programming
+- Intermediate modern C++ programming and Data Structures
+- Assembly and Machine Architecture
+
 ### CMS
 
 - WordPress
@@ -88,6 +96,8 @@ Disclaimer: I have NO professional experience with any of the following. However
 
 - windows {95, 98, 2000, ME, XP, Vista, 7, 8 , 10}
 - linux {Fedora | CentOS, Ubuntu, Arch}
+
+---
 
 ### Visual Media
 
@@ -116,5 +126,8 @@ Disclaimer: I have NO professional experience with any of the following. However
 
 Creadted with Jekyll, Hosted on Github pages.
 Based on theme [Jekyll Now][jekyll-now] by [Barry Clarke][bc-gh]. 
+
 [bc-gh]: https://github.com/barryclark/
 [jekyll-now]: https://github.com/barryclark/jekyll-now
+[processing]: https://github.com/processing/processing
+[cs50]: https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x
