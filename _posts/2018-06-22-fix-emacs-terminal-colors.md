@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Solved: ANSI term using wrong colors"
+title:  "[Solved] ANSI term using wrong colors"
 date:   2018-06-15 17:32:11 -0700
 published: true
 comments:  true
