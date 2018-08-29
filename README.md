@@ -8,7 +8,7 @@ Spent some years working in different positions, from bussing to brand managemen
 While broadening design skills I discovered [Processing][processing], which inspired me to take Harvard's [cs50x][cs50] in order to write more sophisticated sketches. 
 During this time I cultivated a passion for programming and decided to go back to school for computer science.
 I'm still exploring a few of the thousands of different technologies available to me, and I don't expect to ever stop :). This is also what draws me to web development. 
-Other areas I've touched on: Graphics processing(low level, drivers, computer vision), Machine Learning(pytorch, ml.*, octave), DSP(audio programming, with max and C++); 
+Other areas I've touched on: Graphics processing(low level, drivers, computer vision), Machine Learning(pytorch, ml.*, octave), DSP(audio programming with max and C++); 
 Currently taking classes at local community colleges to hone my knowledge of computers and mathematics, with the intent to get into a graduate program or professional software development position once I've successfully drummed up enough background.
 
 ---
@@ -19,9 +19,9 @@ Note: This page is in ongoing project in itself and therefore subject to edits a
 
 - [wordGen](https://github.com/drewLo/wordGen), a procedural word generator @1.0.0
 - [lough.tech](http//lough.tech "lough.tech"), This website.
-- [io AV](http://ioav.tech "ioAV") the site for my audio-visual project, currently a collection of social media links.
+- [io.AV](http://ioav.tech "ioAV") the site for my audio-visual project, currently a collection of social media links.
 
-- Render Farm with Blender & VNC
+- Home Render Farm with Blender & VNC
 - Raspberry Pi Zero ad-blocker
 
 - ToDo: add suspended projects? Completed?
