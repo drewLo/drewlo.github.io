@@ -35,8 +35,8 @@ Disclaimer: I have NO professional experience with any of the following. However
 ### Tools:
 
 - git
-..- github
-..- gitlab
+..+ github
+..+ gitlab
 - AWK, less, grep, ffmpeg, ssh, sftp, & more.
 - Bash | zsh
 - VNC
@@ -50,7 +50,7 @@ Disclaimer: I have NO professional experience with any of the following. However
 - p5.js (js port of Processing)
 - openFrameworks
 - openCV
-..- OCR & Shape-detection
+..+ OCR & Shape-detection
 - Flask
 
 ### Runtimes
@@ -106,8 +106,7 @@ Disclaimer: I have NO professional experience with any of the following. However
 - InDesign
 - TouchDesigner
 - Blender
-- AfterEffects
-- Nuke
+- AfterEffects | Nuke
 
 ### Audio Media
 
