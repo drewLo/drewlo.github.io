@@ -7,9 +7,9 @@ Graduated from university with a degree in conflict resolution and a minor in Ma
 Spent some years working in different positions, from bussing to brand management. 
 While broadening design skills I discovered [Processing][processing], which inspired me to take Harvard's [cs50x][cs50] in order to write more sophisticated sketches. 
 During this time I cultivated a passion for programming and decided to go back to school for computer science.
-I'm still exploring a few of the thousands of differnt technologies available to me, and I don't expect I may ever stop :). This is also what draws me to web development! 
+I'm still exploring a few of the thousands of different technologies available to me, and I don't expect to ever stop :). This is also what draws me to web development. 
 Other areas I've touched on: Graphics processing(low level, drivers, computer vision), Machine Learning(pytorch, ml.*, octave), DSP(audio programming, with max and C++); 
-Currently taking classs at local community colleges to hone my knowledge of computers and mathematics, with the intent to get into a graduate program or professional software development position.
+Currently taking classes at local community colleges to hone my knowledge of computers and mathematics, with the intent to get into a graduate program or professional software development position once I've successfully drummed up enough background.
 
 ---
 Note: This page is in ongoing project in itself and therefore subject to edits and revisions!
