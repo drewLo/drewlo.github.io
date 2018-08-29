@@ -4,7 +4,7 @@ title:  "Solved: ANSI term using wrong colors"
 date:   2018-06-15 17:32:11 -0700
 published: true
 comments:  true
-tags: emacs fix
+tags: emacs issue solved
 ---
 
 # Problem:
