@@ -61,7 +61,9 @@ Disclaimer: I have NO professional experience with any of the following. However
 
 - dnf | apt | pacman
 - npm
+- yarn
 - cargo
+- cabal
 - rubygems
 
 ### Languages
