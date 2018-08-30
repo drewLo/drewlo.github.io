@@ -35,7 +35,7 @@ Disclaimer: I have NO professional experience with any of the following. However
 ### Tools:
 
 - git
-..* github
+  * github
 - AWK, less, grep, ffmpeg, ssh, sftp, etc.
 - Bash | zsh
 - VNC
