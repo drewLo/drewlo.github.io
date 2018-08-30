@@ -35,9 +35,8 @@ Disclaimer: I have NO professional experience with any of the following. However
 ### Tools:
 
 - git
-...+ github
-...+ gitlab
-- AWK, less, grep, ffmpeg, ssh, sftp, & more.
+..* github
+- AWK, less, grep, ffmpeg, ssh, sftp, etc.
 - Bash | zsh
 - VNC
 - VMs: Virtualbox, Boxes, HyperVisor
@@ -50,7 +49,7 @@ Disclaimer: I have NO professional experience with any of the following. However
 - p5.js | Processing
 - openFrameworks
 - openCV
-..+ OCR & Shape-detection
+  + OCR & Shape-detection
 - Flask
 
 ### Runtimes
@@ -115,11 +114,12 @@ Disclaimer: I have NO professional experience with any of the following. However
 - Cubase, FL Studio, Repear 
 - a wide variety of plugins and tools too long to mention here
 
-## Blog Topics
+## Topics
 
-- Document problems and solutions
-- Reflect on experiences
-- Record lessons
+- Issue log
+- Reflections, journal
+- guides
+
 
 ## Credits
 
