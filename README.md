@@ -4,7 +4,7 @@
 
 Started out as a musician by training. 
 Graduated from university with a degree in conflict resolution and a minor in Mandarin Chinese. 
-Spent some years working in different positions, from bussing to brand management. 
+Spent some years working in different positions, from waiting tables to brand management. 
 While broadening design skills I discovered [Processing][processing], which inspired me to take Harvard's [cs50x][cs50] in order to write more sophisticated sketches. 
 During this time I cultivated a passion for programming and decided to go back to school for computer science.
 I'm still exploring a few of the thousands of different technologies available to me, and I don't expect to ever stop :). This is also what draws me to web development. 
