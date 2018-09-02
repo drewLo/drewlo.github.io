@@ -14,38 +14,38 @@ How to get Randal Hyde's xi386 HLA compiler working on 64bit Linux.
   - Download the taballs titled `HLA for Linux` and `HLA Stdlib Source Code for Linux`. You can save these wherever, like `~/Desktop`.
   - Now you need to extract the tarballs. you can run the commands:
   
-{% highlight bash %}
-tar -xvf linux.hla.tar.gz
-tar -xvf linux.hlalib.tar.gz
-{% endhighlight %}
+  {% highlight bash %}
+  tar -xvf linux.hla.tar.gz
+  tar -xvf linux.hlalib.tar.gz
+  {% endhighlight %}
 
   - This will extract both archives' contents into a folder in the current directory: `./usr/hla/*` (ie. `~/Desktop/usr/hla`).
   - Optional: Here, the HLA author recommends you set permissions on the HLA files to 'All users can read and execute'. Unless you have multiple users on your linux install this step isn't really necessary, but for completion's sake you can use this command to accomplish this:
   
-{% highlight bash %}
-chmod -R 555 ./usr/hla
-{% endhighlight %}
+  {% highlight bash %}
+  chmod -R 555 ./usr/hla
+  {% endhighlight %}
 
   - NOTE: Make sure to type the command correctly!! otherwise you might end up changing permissions on files that don't need to be changed; don't miss the period in the path! It means 'current directory'.  
   - The next step is to get the hla binaries into your system path so you can simply type 'hla file' to compile your programs:
   
 1. Type the following command to copy the HLA compiler source code and binaries to your Unix System Resources (/usr/) directory:
 
-{% highlight bash %}
-cp -r ./usr/hla /usr/
-{% endhighlight %}
+  {% highlight bash %}
+  cp -r ./usr/hla /usr/
+  {% endhighlight %}
 
 2. Optional, but recommended: The author recommends this step if you prefer a 'Unix-like' environment; it copies the binaries to `/usr/local/bin`:
   
-{% highlight bash %}
-cd /usr/hla
-{% endhighlight %}
+  {% highlight bash %}
+  cd /usr/hla
+  {% endhighlight %}
 
   - Move current destination to where we copied the binaries and source files in last step.
     
-{% highlight bash %}
-cp delete hla hlacmp hlaparse /usr/local/bin
-{% endhighlight %}
+  {% highlight bash %}
+  cp delete hla hlacmp hlaparse /usr/local/bin
+  {% endhighlight %}
 
   - This copies the executable binaries to a folder that normally stores user-compiled programs. This folder should be in your system path, so your shell (typically bash) should find it with little effort.
   
@@ -55,12 +55,12 @@ cp delete hla hlacmp hlaparse /usr/local/bin
   - open the run commands file in your home directory. For most people, this is `~/.bashrc`. You can figure out which shell you're using with the command `echo $SHELL` if you have a different shell, you can consult it's documentation to figure out how to add environment variables if the following doesn't work.
   - at the bottom of `.bashrc` (or whatever shell you're configuring) add the lines:
      
-{% highlight bash %}
-hlalib=/usr/hla/hlalib
-export hlalib
-hlainc=/usr/hla/include
-export hlainc
-{% endhighlight %}
+  {% highlight bash %}
+  hlalib=/usr/hla/hlalib
+  export hlalib
+  hlainc=/usr/hla/include
+  export hlainc
+  {% endhighlight %}
 
   - Optional: add a temp directory, but make sure `/tmp` exists:
   
