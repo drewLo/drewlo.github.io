@@ -19,7 +19,7 @@ tar -xvf linux.hla.tar.gz
 tar -xvf linux.hlalib.tar.gz
 {% endhighlight %}
 
-    - This will extract both archives' contents into a folder in the current directory: `./usr/hla/*` (ie. `~/Desktop/usr/hla`).
+  - This will extract both archives' contents into a folder in the current directory: `./usr/hla/*` (ie. `~/Desktop/usr/hla`).
   - Optional: Here, the HLA author recommends you set permissions on the HLA files to 'All users can read and execute'. Unless you have multiple users on your linux install this step isn't really necessary, but for completion's sake you can use this command to accomplish this:
   
 {% highlight bash %}
@@ -74,30 +74,43 @@ export hlainc
 {% highlight bash %}
 source .bashrc
 {% endhighlight %}
+
   - tip: if that doesn't work, try restarting your session (log out or restart the machine).
   
 5. HLA should be properly installed now, type the following to confirm, if a help message gets printed out, congrats! you did it! However there is still one more important step before you can compile programs.
 
 6. The author doesn't mention this, but it's crucial for most people running on modern PCs. The HLA compiler source code was written for 32bit architecture, if you are on a 32bit machine you shouldn't need this step. However if you're on a 64bit machine (most computers nowadays) running a raw `hla file.hla` command will probably print out a bunch of linker errors. They look somehtign like `ld: system architecture input source file is for i386`.
   - Explanation from [this page][64bit-hla]:
-  >I think I finally got an answer to this problem:
+
   >The thing is; on x64 systems ld tries to produce x64 output at its default. Since at its current state hla outputs x86 compatible code and provides x86 libraries, ld simply prints those irritating lines.
+
   >The solution resides in a very cleverly figured switch of hla; the "-l". What this switch does is simply to pass its argument to ld. But, if you try to pass it in a "hla -l -melf_i386 -v helloWorld" format hla will prompt an error since it doesn't have a "-m" switch. As it is stated in hla's help; this switch's argument needs to be in the "-lxxxxx" format where "xxxxx" corresponds to the linker parameter. Similarly a command as "hla -lm elf_i386 -v helloWorld" is false, because the "elf_i386" part of it is recognized as an input file by the hla. Again, "hla -l-melf_i386 -v helloWorld" also doesn't function as intended because this time ld will be angry since it doesn't recognize the "option '--melf_i386'". The reason to it is that the argument of this switch is passed to ld with a minus sign prefixed to it.
+
   > And about this "-melf_i386". "-m" switch of ld configures the "emulation mode". To be honest I don't know what this means accurately but it does work!
+
   > The correct command is;
+
   > `<user>@<user>-GA-770TA-UD3:/usr/local/samples/hla$ hla -lmelf_i386 -v helloWorld`
   
-  - In short, you want to run the hla binary  with the `-lmelf_i386` flag, you can make life easier on yourself by adding an alias to your shell config file (.bashrc):
-    alias hla='hla -lmelf_i386'
-    - save and run `source .bashrc`
-    - You might need to restart your session after editing this file. `source` can give mixed results (it didn't work for me).
+  - In short, you want to run the hla binary with the `-lmelf_i386` flag, you can make life easier on yourself by adding an alias to your shell config file (.bashrc):
+  
+{% highlight bash %}
+alias hla='hla -lmelf_i386'
+{% endhighlight %}
+
+  - save and run `source .bashrc`
+  - You might need to restart your session after editing this file. `source` can give mixed results (it didn't work for me).
     
 7. Verify the environment has been set up by compiling a ssimple hello world program. 
-  1. `cd ~/Desktop`
-  2. `mkdir hw`
-  3. `cd hw`
-  4. `touch hw.hla`
-  5. Place this code in the file:
+
+{% highlight bash %}
+`cd ~/Desktop`
+`mkdir hw`
+`cd hw`
+`touch hw.hla`
+{% endhighlight %}
+
+  - Place this code in the file:
   
 {% highlight c %}
 program HelloWorld;
@@ -161,7 +174,7 @@ Linking via [ld   -melf_i386   -o "hw"   "hw.o" "/usr/hla/hlalib/hlalib.a"]
 
 8. If this runs with no problems, then congrats!! you've successfully installed the High Level Assembly compiler for use with Linux 64bit systems. Leave questions in the comments and I'll do my best to help out. I'm considering adding a section for windows installs too if needed.
     
-This guide is subject to edits and fixes! Feel free to suggest edits and fixes, thanks!
+This guide is subject to edits and fixes! Feel free to suggest any, thanks!
 
 For more information you can read the [Author's installation guide here][hla-homepage].
     
