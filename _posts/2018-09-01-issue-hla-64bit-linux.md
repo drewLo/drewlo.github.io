@@ -9,6 +9,8 @@ tags: hla issue closed
 
 How to get Randal Hyde's xi386 HLA compiler working on 64bit Linux.
 
+Please note: at this time I haven't quite got markdown ordered lists to work for me, hopefully that will get fixed in the near future. For now, just go through the steps sequentially.
+
 0. Get the code
   - Go to the [author's homepage][hla-homepage].
   - Download the taballs titled `HLA for Linux` and `HLA Stdlib Source Code for Linux`. You can save these wherever, like `~/Desktop`.
