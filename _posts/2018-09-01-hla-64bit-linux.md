@@ -16,12 +16,13 @@ Please note: at this time I haven't quite got markdown ordered lists to work for
     - Download the taballs titled `HLA for Linux` and `HLA Stdlib Source Code for Linux`. You can save these wherever, like `~/Desktop`.
     - Open a terminal and navigate to the download location, for me this was `~/Desktop`, but it might be somewhere like `~/Downloads` for you.
   
-{% highlight bash %}
+{% highlight shell %}
 cd ~/path/to/download.tar.gz
 {% endhighlight %}
 
 - Now you need to extract the tarballs. you can run the commands:
-{% highlight bash %}
+
+{% highlight shell %}
 tar -xvf linux.hla.tar.gz
 tar -xvf linux.hlalib.tar.gz
 {% endhighlight %}
@@ -29,7 +30,7 @@ tar -xvf linux.hlalib.tar.gz
 - This will extract both archives' contents into a folder in the current directory: `./usr/hla/*` (ie. `~/Desktop/usr/hla`).
 - Optional: Here, the HLA author recommends you set permissions on the HLA files to 'All users can read and execute'. Unless you have multiple users on your linux install this step isn't really necessary, but for completion's sake you can use this command to accomplish this:
   
-{% highlight bash %}
+{% highlight shell %}
 chmod -R 555 ./usr/hla
 {% endhighlight %}
 
@@ -38,76 +39,76 @@ chmod -R 555 ./usr/hla
   
 1. Type the following command to copy the HLA compiler source code and binaries to your Unix System Resources (/usr/) directory:
 
-{% highlight bash %}
+{% highlight shell %}
 cp -r ./usr/hla /usr/
 {% endhighlight %}
 
 2. Optional, but recommended: The author recommends this step if you prefer a 'Unix-like' environment; it copies the executables to `/usr/local/bin`:
+
+- Change directory to where we copied the binaries and source files in previous step:
   
-{% highlight bash %}
+{% highlight shell %}
 cd /usr/hla
 {% endhighlight %}
 
-  - Change directory to where we copied the binaries and source files in previous step.
+- We'll now place copies of the compiled hla binaries to the folder that normally stores user-compiled programs. This folder should be in your system path, so your shell should find it with little effort.
     
-{% highlight bash %}
-cp hla hlacmp hlaparse delete /usr/local/bin
+{% highlight shell %}
+cp hla delete hlacmp hlaparse /usr/local/bin
 {% endhighlight %}
 
-  - This places copies of the compiled hla binaries to a folder that normally stores user-compiled programs. This folder should be in your system path, so your shell (typically bash) should find it with little effort.
-  
-3. If you didn't perform the optional last step, or if you're on an atypical setup, or if you simply want the HLA compiler in a specific directory, then you can add the location of the executables to your system path. The process for this is out of the scope of this how-to, I'll assume if you go this route then you know what you're doing and can figure out how to append a specific directory to your system path.
+3. If you didn't perform the previous step, or if you're on an atypical setup, or if you simply want the HLA compiler in a specific directory, then you can add the location of the executables to your system path. The process for this is out of the scope of this how-to, I'll assume if you go this route then you know what you're doing and can figure out how to append a specific directory to your system path.
 
 4. Now you should set some environment variables:
-  - open the run commands file in your home directory. For most people, this is `~/.bashrc`. You can figure out which shell you're using with the command `echo $SHELL` if you have a different shell, you can consult it's documentation to figure out how to export environment variables if the following doesn't work.
-  - at the bottom of `.bashrc` (or whatever shell you're configuring) add the lines:
+- open the run commands file in your home directory. For most people, this is `~/.bashrc`. You can figure out which shell you're using with the command `echo $SHELL` if you have a different shell, you can consult it's documentation to figure out how to export environment variables if the following doesn't work.
+- at the bottom of `.bashrc` (or whatever shell you're configuring) add the lines:
      
-{% highlight bash %}
+{% highlight shell %}
 hlalib=/usr/hla/hlalib
 export hlalib
 hlainc=/usr/hla/include
 export hlainc
 {% endhighlight %}
 
-  - Optional: add a temp directory, but make sure `/tmp` exists:
+- Optional: add a temp directory, but make sure `/tmp` exists:
   
-{% highlight bash %}
+{% highlight shell %}
 hlatemp=/tmp
 export hlainc
 {% endhighlight %}
 
-  - Save the file and 'activate' it with:
+- Save the file and 'activate' it with:
      
-{% highlight bash %}
+{% highlight shell %}
 source .bashrc
 {% endhighlight %}
 
-  - tip: if that doesn't work, try restarting your session (log out or restart the machine).
+- tip: if that doesn't work, try restarting your session (log out or restart the machine).
   
 5. HLA should be properly installed now, type the following into your terminal to confirm: `hla -?`
-  - if a help message gets printed out, congrats! you did it! However, if you're on a 64 bit OS there is still one more important step before you can compile programs.
+- if a help message gets printed out, congrats! you did it! However, if you're on a 64 bit OS there is still one more important step before you can compile programs.
 
 6. The author doesn't mention this, but it's crucial for most people running on modern PCs. The HLA compiler library source code was compiled for 32bit architecture, if you are on a 32bit machine you shouldn't need this step. If you're on a 64bit machine (most computers nowadays) running a raw `hla file.hla` command will probably print out a bunch of linker errors. They look somehting like `ld: system architecture input source file.o is for i386`.
-  - Explanation from th bottom of [this page][64bit-hla] (optional reading):
+- Explanation from th bottom of [this page][64bit-hla] (optional reading):
 
-    >The thing is; on x64 systems ld tries to produce x64 output at its default. Since at its current state hla outputs x86 compatible code and provides x86 libraries, ld simply prints those irritating lines.  
-    >The solution resides in a very cleverly figured switch of hla; the "-l". What this switch does is simply to pass its argument to ld. But, if you try to pass it in a "hla -l -melf_i386 -v helloWorld" format hla will prompt an error since it doesn't have a "-m" switch. As it is stated in hla's help; this switch's argument needs to be in the "-lxxxxx" format where "xxxxx" corresponds to the linker parameter. Similarly a command as "hla -lm elf_i386 -v helloWorld" is false, because the "elf_i386" part of it is recognized as an input file by the hla. Again, "hla -l-melf_i386 -v helloWorld" also doesn't function as intended because this time ld will be angry since it doesn't recognize the "option '--melf_i386'". The reason to it is that the argument of this switch is passed to ld with a minus sign prefixed to it.  
-    > And about this "-melf_i386". "-m" switch of ld configures the "emulation mode". To be honest I don't know what this means accurately but it does work!  
-    > The correct command is;  
-    > `<user>@<user>-GA-770TA-UD3:/usr/local/samples/hla$ hla -lmelf_i386 -v helloWorld`  
+>The thing is; on x64 systems ld tries to produce x64 output at its default. Since at its current state hla outputs x86 compatible code and provides x86 libraries, ld simply prints those irritating lines.  
+>The solution resides in a very cleverly figured switch of hla; the "-l". What this switch does is simply to pass its argument to ld. But, if you try to pass it in a "hla -l -melf_i386 -v helloWorld" format hla will prompt an error since it doesn't have a "-m" switch. As it is stated in hla's help; this switch's argument needs to be in the "-lxxxxx" format where "xxxxx" corresponds to the linker parameter. Similarly a command as "hla -lm elf_i386 -v helloWorld" is false, because the "elf_i386" part of it is recognized as an input file by the hla. Again, "hla -l-melf_i386 -v helloWorld" also doesn't function as intended because this time ld will be angry since it doesn't recognize the "option '--melf_i386'". The reason to it is that the argument of this switch is passed to ld with a minus sign prefixed to it.  
+> And about this "-melf_i386". "-m" switch of ld configures the "emulation mode". To be honest I don't know what this means accurately but it does work!  
+> The correct command is;  
+> `<user>@<user>-GA-770TA-UD3:/usr/local/samples/hla$ hla -lmelf_i386 -v helloWorld`  
   
-  - In short, you want to run hla with the `-lmelf_i386` flag, you can make life easier on yourself by adding this as an alias to your shell config file (.bashrc):
+- In short, you want to run hla with the `-lmelf_i386` flag, you can make life easier on yourself by adding this as an alias to your shell config file (.bashrc):
   
-{% highlight bash %}
+{% highlight shell %}
 alias hla='hla -lmelf_i386'
 {% endhighlight %}
 
-  - save and run `source .bashrc`
-  - You might need to restart your session after editing this file. `source` can give mixed results (it didn't work for me).
+ - save and run `source .bashrc`
+ - You might need to restart your session after editing this file. `source` can give mixed results (it didn't work for me).
     
 7. Verify the environment has been set up by compiling a simple hello world program: 
 
-{% highlight bash %}
+{% highlight shell %}
 cd ~/Desktop
 mkdir hw
 cd hw
@@ -130,7 +131,7 @@ end HelloWorld;
   - run: `hla -v hw`
   - this should print out a success message that looks like this:
     
-{% highlight bash %}
+{% highlight shell %}
 HLA (High Level Assembler)
 Use '-license' to see licensing information.
 Version 2.16 build 4409 (prototype)
