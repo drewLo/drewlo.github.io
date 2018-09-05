@@ -22,3 +22,9 @@ This is an abstraction and ecapsulation of an 'action' to be performed, ie. a gu
 In the 3rd project of CISC187 (a calculator), the command didn't directly perform the operation, instead acting as an interface layer which called the the overloads of the user-defined type (in this case operators of a 'big int' object). 
 This UDT that contained said overloads acts as the receiver. 
 The caller, or 'client', was the handler object from the chain of responsibility in the previous example.
+
+# TBA: Singleton
+
+# TBA: Observer / PubSub
+
+# TBA: Factory
