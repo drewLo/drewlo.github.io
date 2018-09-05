@@ -14,10 +14,13 @@ $gray: #666;
 $lightGray: #eee;
 $white: #fff;
 
-// Font stacks
+// Font stacks: old and new
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+
+$sourceCodePro: 'Source Code Pro', monospace;
+$roboto: 'Roboto', sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
