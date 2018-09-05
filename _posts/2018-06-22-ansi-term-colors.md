@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "[Solved] ANSI term usin<!-- g --> wrong colors"
+title:  "Terminal using unusual color palette/face [Open]"
 date:   2018-06-15 17:32:11 -0700
 published: true
 comments:  true
-tags: emacs issue solved
+tags: emacs issue
 ---
 
-Emacs' ANSI-terminal had some hard to read colors set. 
+Emacs' ANSI-term had some hard to read colors. 
 Text was unreadable.
 
 ![Weird Colors](/images/emacs-term-wrong-colors.png "Weird Colors")

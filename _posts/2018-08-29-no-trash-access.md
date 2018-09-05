@@ -1,15 +1,16 @@
 ---
 layout: post
-title:  "[Open] Unable to move files/dir to Trash bin"
+title:  "System can't find Trash dir [Open]"
 date: 2018-08-29 14:10:00 -0700
 published: true
 comments: true
 tags: linux issue open
 ---
 
-- File browser (nautilus) can't find Trash directory when deleting files on other partitions aside from system partition.
+File browser (nautilus) can't find Trash directory when deleting files on other partitions outside of system partition.
 
 # More info:
+
 - Files that live in the system partition get moved to trash folder with no issues.
 - Since nautilus cannot find the files, it offers to delete the files permanently. This allows the system to still be usable, but only having the option to permanently delete files is obviously suboptimal.
 

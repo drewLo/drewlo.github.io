@@ -7,7 +7,7 @@ comments:  true
 tags: notes design-patterns
 ---
 
-Notes covering my foray into software design. ie. realizations that perhaps aren't as obvious as they might seem.
+Notes on software development techniques, ie. realizations that perhaps aren't as obvious as they might seem.
 
 # Chain of Responsibility
 
