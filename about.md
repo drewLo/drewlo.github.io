@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This Blog: Intended to document (in a public way) my discoveries, interests and observations with regard to my pursuits in computer science, coming from a backround in the humanities & the arts. 
+This Blog: Publicly documenting discoveries and observations with regard to my interests in computer science and programming.
 
-Me: Entangled by a fascination with the bridge between computation and aesthetics. Currently taking classes about computer science to make contributions to projects I use consistently. Interests: audio-visual technologies, digital signal processing, Linux, machine learning/deep learning, computer vision, stochastics, graphics, performance computing, data-driven research, and distributed systems, and recently: web development.
+Me: Deeply fascinated by the relationship between computation and aesthetics. Attending local community colleges to boostrap a career in software development. I'm interested in a lot of things: audio && visual tech, like signal processing and graphics APIs; linux; machine learning; computer vision; I have also dabbled in stochastics, performance computing, data-driven research, embedded and distributed systems. Lately I've been teaching myself how to build web applications in-between schoolwork. I've played music in some form since childhood and I attribute all of my other pursuits to it. 
 
 
