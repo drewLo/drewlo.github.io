@@ -4,7 +4,7 @@ title: "HLA compiler on Linux 64bit"
 date: 2018-09-01 21:00:00
 published: true
 comments: true
-tags: hla issue closed
+tags: hla linux issue closed
 ---
 
 How to install Randal Hyde's xi386 HLA compiler on 64bit Linux.
@@ -14,6 +14,12 @@ Please note: at this time I haven't quite got markdown ordered lists to work for
 0. Get the code
   - Go to the [author's homepage][hla-homepage].
   - Download the taballs titled `HLA for Linux` and `HLA Stdlib Source Code for Linux`. You can save these wherever, like `~/Desktop`.
+  - Open a terminal and navigate to the download location, for me this was `~/Desktop`, but it might be somewhere like `~/Downloads` for you.
+  
+  {% highlight bash %}
+  cd ~/Desktop
+  {% endhighlight %}
+  
   - Now you need to extract the tarballs. you can run the commands:
   
       {% highlight bash %}
