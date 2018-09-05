@@ -43,24 +43,24 @@ Please note: at this time I haven't quite got markdown ordered lists to work for
     cp -r ./usr/hla /usr/
     {% endhighlight %}
 
-2. Optional, but recommended: The author recommends this step if you prefer a 'Unix-like' environment; it copies the binaries to `/usr/local/bin`:
+2. Optional, but recommended: The author recommends this step if you prefer a 'Unix-like' environment; it copies the executables to `/usr/local/bin`:
   
     {% highlight bash %}
     cd /usr/hla
     {% endhighlight %}
 
-  - Move current destination to where we copied the binaries and source files in last step.
+  - Change directory to where we copied the binaries and source files in previous step.
     
     {% highlight bash %}
     cp delete hla hlacmp hlaparse /usr/local/bin
     {% endhighlight %}
 
-  - This copies the executable binaries to a folder that normally stores user-compiled programs. This folder should be in your system path, so your shell (typically bash) should find it with little effort.
+  - This places copies of the compiled hla binaries to a folder that normally stores user-compiled programs. This folder should be in your system path, so your shell (typically bash) should find it with little effort.
   
-3. If you didn't perform the optional last step, or if you're on an atypical setup, or if you simply want the HLA compiler in a specific directory, then you can add the location of the executables to your system path. The process for this is out of the scope of this how-to, I'll assume if you go this route then you know what you're doing anyway and can figure out how to append a specific directory to your system path.
+3. If you didn't perform the optional last step, or if you're on an atypical setup, or if you simply want the HLA compiler in a specific directory, then you can add the location of the executables to your system path. The process for this is out of the scope of this how-to, I'll assume if you go this route then you know what you're doing and can figure out how to append a specific directory to your system path.
 
 4. Now you should set some environment variables:
-  - open the run commands file in your home directory. For most people, this is `~/.bashrc`. You can figure out which shell you're using with the command `echo $SHELL` if you have a different shell, you can consult it's documentation to figure out how to add environment variables if the following doesn't work.
+  - open the run commands file in your home directory. For most people, this is `~/.bashrc`. You can figure out which shell you're using with the command `echo $SHELL` if you have a different shell, you can consult it's documentation to figure out how to export environment variables if the following doesn't work.
   - at the bottom of `.bashrc` (or whatever shell you're configuring) add the lines:
      
     {% highlight bash %}
@@ -97,7 +97,7 @@ Please note: at this time I haven't quite got markdown ordered lists to work for
     > The correct command is;  
     > `<user>@<user>-GA-770TA-UD3:/usr/local/samples/hla$ hla -lmelf_i386 -v helloWorld`  
   
-  - In short, you want to run the hla binary with the `-lmelf_i386` flag, you can make life easier on yourself by adding an alias to your shell config file (.bashrc):
+  - In short, you want to run hla with the `-lmelf_i386` flag, you can make life easier on yourself by adding this as an alias to your shell config file (.bashrc):
   
     {% highlight bash %}
     alias hla='hla -lmelf_i386'
@@ -177,9 +177,9 @@ Please note: at this time I haven't quite got markdown ordered lists to work for
     ========================================
     ```
 
-8. If this runs with no problems, then congrats!! you've successfully installed the High Level Assembly compiler for use with Linux 64bit systems. Leave questions in the comments and I'll do my best to help out. I'm considering adding a section for windows installs too if needed.
+8. If this runs with no problems, then congrats!! you've successfully installed the High Level Assembly compiler for use on a 64bit linux system. Leave questions in the comments and I'll do my best to help out. I'm considering adding a section for windows installs too if needed.
     
-    - This guide is subject to edits and fixes! Feel free to suggest any, thanks!
+    - This guide is subject to edits and fixes! Feel free to suggest any in the comments below. cheers!
 
     - For more information you can read the [Author's installation guide here][hla-homepage].
     
