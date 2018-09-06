@@ -16,15 +16,13 @@ Text was unreadable.
 
 - Changing them in `gnome-terminal` preferences had no effect. 
 - Changing emacs' theme had no effect.
-- Altering the colors for the `ls` program in .bashrc (or in my case, .zshrc) had no effect.
-- using different terminal emulators had no effect.
+- Altering the colors for the `ls` program in .bashrc (or in my case, .zshrc) worked for gnome-terminal, but not for anything in emacs.
+- using different terminal emulators had a slight effect, nothing seemingly controllable though.
 
 ## Solution:
 
 1. `M-x customize`
 2. search term: `term color`
 3. set the term colors from here.
-  - you can also go into `M-x customize-group` and search for `ansi-color-names-vector` and edit them there. some of the values were pulled from there as well.
+  - you can also go into `M-x customize-group` and search for `ansi-color-names-vector` and edit them there. some of the values were pulled from there.
 
-
-![Color Fix](/images/emacs-terminal-color-fix.png "Color Fix")
