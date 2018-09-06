@@ -3,7 +3,7 @@
 .highlight {
   background-color: $nord1;
   padding: 7px 7px 7px 10px;
-  border: 1px solid $nord0;
+  border: 1px solid $nord1;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0);
@@ -59,8 +59,8 @@ code {
 .highlight .nn { color: $nord4 } /* Name.Namespace */
 .highlight .nx { color: #555 } /* Name.Other */
 .highlight .py { color: $nord4 } /* Name.Property */
-.highlight .nt { color: $nord10 } /* Name.Tag */
-.highlight .nv { color: $nord10 } /* Name.Variable */
+.highlight .nt { color: $nord8 } /* Name.Tag */
+.highlight .nv { color: $nord12 } /* Name.Variable */
 .highlight .ow { color: $nord14 } /* Operator.Word */
 .highlight .w { color: $nord4 } /* Text.Whitespace */
 .highlight .mf { color: $nord7 } /* Literal.Number.Float */
