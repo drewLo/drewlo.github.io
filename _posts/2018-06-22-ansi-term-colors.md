@@ -21,8 +21,7 @@ Text was unreadable.
 
 ## Solution:
 
-1. `M-x customize`
-2. search term: `term color`
-3. set the term colors from here.
-  - you can also go into `M-x customize-group` and search for `ansi-color-names-vector` and edit them there. some of the values were pulled from there.
-
+1.  `M-x customize`
+2.  search term: `term color`
+3.  set the term color variables from here.
+  3a. you can also go into `M-x customize-group` and search for `ansi-color-names-vector` and edit the values. some color variables' are pulled from here.
