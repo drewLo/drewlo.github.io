@@ -9,7 +9,7 @@ tags: guide linux hla
 
 How to install Randal Hyde's xi386 HLA compiler on 64bit Linux.
 
-This guide boils down to 3 basic steps: Get the source code, put the compiled bianris in your system path, and create some aliases so you can easily call it with specific settings from your shell (terminal).
+This guide boils down to 3 basic steps: Get the source code, put the compiled bianries in your system path somehow, and add some aliases in your shell's rc so you can easily run it with specific settings from your terminal.
 
 {:start="0"}
 0. Get the code
