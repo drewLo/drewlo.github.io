@@ -106,9 +106,10 @@ source .bashrc
   > `<user>@<user>-GA-770TA-UD3:/usr/local/samples/hla$ hla -lmelf_i386 -v helloWorld`  
   
   - In short, you want to run hla with the `-lmelf_i386` flag, you can make life easier on yourself by adding this as an alias to your shell config file (.bashrc):
+  - On some systems you may ned to use the `-a32` flag to "let the compiler know you're compiling for 32bit" -instructor. 
   
 {% highlight shell %}
-alias hla='hla -lmelf_i386'
+alias hla='hla -lmelf_i386 -a32'
 {% endhighlight %}
 
   - save and run `source .bashrc`
