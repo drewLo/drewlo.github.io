@@ -38,6 +38,6 @@ It goes against my philosophy somewhat but at the same time I feel like not havi
 Hopefully I can return to this post in 6+ months and know with more certainty that this was a wise move, and not a thought distortion.
 I observe this effect with my signal work in max as well, where my difficulties come from a lack of intuition, and a lack of math (something I'm working on and eats most of my time).
 Thankfully I have a ton of music and audio experience to draw from but the meat of my ambitions with maxMSP will come spending more time studying signal theory (in the form of algorithms) and example implementation, re-implementing them.
-Not quite sure how I'll bring this approach to the programming side of my endeavors yet; perhaps try to create something with vanilla js, or pay for a course that has a well-defined curriculum; something that will teach the model of how to build nontrivial applications for the web.
+Not quite sure how I'll bring this approach to the programming side of my endeavors yet; perhaps try to create something with vanilla js, or pay for a course that has a well-defined curriculum; something that will teach the model of how to build nontrivial applications for the web by defining what constitutes a well-made application, then having me perform those steps.
 
 [1]: https://ello.co/ioav/post/idewvqt-bokefltdk8vcda
