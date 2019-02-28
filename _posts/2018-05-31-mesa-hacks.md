@@ -2,7 +2,7 @@
 layout: post
 title:  "Mesa 2018 Hackathon"
 date:   2018-06-02 12:00:00 -0700
-published: true
+published: false
 comments:  true
 tags: event hackathon mesa
 ---
