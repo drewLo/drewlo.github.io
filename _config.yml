@@ -2,7 +2,7 @@
 name: low fequency
 
 # Tagline
-description: Ideas, expressions, notes, reflections.
+description: ¯\_(ツ)_/¯
 
 # URL of avatar
 avatar: https://lough.dev/images/pfp-icon.png
@@ -21,7 +21,6 @@ footer-links:
   twitter: 
   stackoverflow: users/6402386/dlo
   youtube: 
-  googleplus: +DrewLough
 
 # Disqus shortname (not username) for comments
 disqus: lough-tech
