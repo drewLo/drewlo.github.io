@@ -5,13 +5,13 @@ name: low fequency
 description: Ideas, expressions, notes, reflections.
 
 # URL of avatar
-avatar: https://lough.tech/images/pfp-icon.png
+avatar: https://lough.dev/images/pfp-icon.png
 
 # footer icon for each username
 footer-links:
   dribbble:
   email: drew@lough.tech
-  facebook: DrewLough
+  facebook: #DrewLough
   flickr:
   github: drewLo
   instagram:
@@ -30,7 +30,7 @@ disqus: lough-tech
 google_analytics: UA-78356005-4
 
 # Website URL for Sitemap.xml and RSS feed
-url: https://lough.tech
+url: https://lough.dev
 
 # If hosting site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
