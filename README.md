@@ -2,10 +2,10 @@
 
 ## Brief Backround
 
-After getting a bachelor's, I spent a few years in customer service and creative freelancing.
-Discovered [Processing][processing], which spurred me to take programming classes; got a chance to explore different fascinating domains like DSP, computer graphics and machine learning.
-Found myself very drawn to web application development, because this field is full of high-impact potential to solve many practical problems.
-Recent subjects include typescript + react + redux; with upcoming subjects including express.js + mongodb + graphql.
+After graduating, I spent a few years working in customer service and doing creative freelancing where I could find work.
+After learning some website of html & css, I was spurred to take a few programming classes at a nearby college, where I was lucky enough to learn a little about a lot of different domains like computer vision, assembly language, shaders, data structures & algorithms.
+I was drawn to application development, because in practical, down-to-earth solutions to common problems, and I think web dev in particular is well suited for that. 
+Tools I've used in my projects include typescript, react, redux; and many others. 
 
 ## Credits
 
